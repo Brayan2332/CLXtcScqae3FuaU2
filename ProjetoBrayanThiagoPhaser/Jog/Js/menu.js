@@ -7,7 +7,8 @@ var menuState = {
 		jogo.add.tween(botao).to({y:jogo.world.centerY,x:325},1000).start();
         
 	},
-	menuFases: function(){
-		jogo.state.start('menuFases');
-	}
+	menuFases: function() {
+        jogo.state.start('menuFases');
+    }
+
 };

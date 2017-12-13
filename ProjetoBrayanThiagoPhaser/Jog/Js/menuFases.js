@@ -14,6 +14,8 @@ var menuFasesState = {
 	},
 	fase1: function(){
 
+        jogo.state.start('primeiraFase');
+
 	},
 	fase2: function(){
 
